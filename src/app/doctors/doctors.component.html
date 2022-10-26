@@ -1,0 +1,34 @@
+<body>
+  <h1 style="margin-left:550px;margin-top:30px;">Hospital Managment</h1>
+<form  style="margin-left: 200px;margin-right: 200px;margin-top: 100px;">
+    <div class="mb-3">
+      <label class="form-label">First Name</label>
+      <input  formControlName="firstname" type="text" class="form-control"  placeholder="First Name">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Last Name</label>
+        <input formControlName="lastname"  type="text" class="form-control"   placeholder="Last Name">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Department</label>
+        <input  formControlName="Department" type="text" class="form-control"  placeholder="Department Name">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input  formControlName="Email" type="email" class="form-control"  placeholder="Email ">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Address</label>
+        <input  formControlName="Address" type="text" class="form-control"  placeholder="Address">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input  formControlName="mobile"  type="number" class="form-control"   placeholder="Phone">
+      </div>
+    
+    <button type="submit" class="btn btn-primary">Add doctor</button>
+    <br><br>
+    <button type="submit" class="btn btn-success" style="width:200px;" routerLink="/home">Back to Homepage</button>
+  </form>
+  
+</body>

@@ -1,0 +1,57 @@
+<html>
+  <style>
+    .card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ .dash{
+  margin-left: 30px;
+ }
+
+  </style>
+  <head>
+   
+  </head>
+  <body >
+    <h1 style="margin-left:550px;margin-top:30px;">Hospital Managment</h1>
+    <div style="margin-left:200px;margin-top:100px" >
+      <ul class="nav nav-tabs">
+      
+        <li class="dash" >
+        <div class="card">
+         <div class="container" style="margin:50px;padding:20px">
+          <a class="btn btn-primary" style="width:200px" >Doctor</a>
+          <br>
+        <button type="submit" class="btn btn-info" style="width:200px;margin-top:50px" routerLink="/doctors">Add Doctor</button></div>
+      
+    </div>
+  </li>
+    <br>
+    <li class="dash">
+      <div class="card">
+        <div class="container" style="margin:50px;padding:20px">
+          <a class="btn btn-primary" style="width:200px" >Patient</a>
+          <br>
+    <button type="submit" class="btn btn-info" style="width:200px;margin-top:50px" routerLink="/patients">Add patient</button></div>
+      </div>
+    </li>
+    <br>
+    <li class="dash">
+      <div class="card">
+        <div class="container" style="margin:50px;padding:20px">
+          <a class="btn btn-primary" style="width:200px" >Appointment</a>
+          <br>
+          <button type="submit" class="btn btn-info" style="width:200px;margin-top:50px" routerLink="/appointments">Add appointment</button></div>
+      
+    </div>
+  </li>
+  </ul>
+  </div>
+  
+  </body>
+</html>
+
